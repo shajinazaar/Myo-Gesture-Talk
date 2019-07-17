@@ -1,0 +1,105 @@
+************************************* Invoked: Sat Oct 27 06:37:58 2018
+[0] Arguments: C:\Users\Dell Latitude E6430\Desktop\New folder\msys2-i686-20180531.exe
+[46] Operations sanity check succeeded.
+[44739] Created warning message box "OverwriteTargetDirectory": "Warning", "You have selected an existing, non-empty directory for installation.\nNote that it will be completely wiped on uninstallation of this application.\nIt is not advisable to install into this directory as installation might fail.\nDo you want to continue?"
+[50960] backup  operation: Mkdir
+[50960] 	- arguments: C:/Users/Dell Latitude E6430/Desktop/New folder
+[50961] Done
+[50961] perform  operation: Mkdir
+[50961] 	- arguments: C:/Users/Dell Latitude E6430/Desktop/New folder
+[50961] Done
+[50962] Install size: 2 components
+[51025] backup com.msys2.root.base operation: Extract
+[51025] 	- arguments: installer://com.msys2.root.base/20180531msys32.7z, C:\Users\Dell Latitude E6430\Desktop\New folder
+[51025] Done
+[51026] perform com.msys2.root.base operation: Extract
+[51026] 	- arguments: installer://com.msys2.root.base/20180531msys32.7z, C:\Users\Dell Latitude E6430\Desktop\New folder
+[182709] Done
+[182709] backup com.msys2.root.base operation: CreateShortcut
+[182709] 	- arguments: C:\Users\Dell Latitude E6430\Desktop\New folder\msys2_shell.cmd, C:\Users\Dell Latitude E6430\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 32bit/MSYS2 MinGW 32-bit.lnk, -mingw32
+[182709] Done
+[182709] perform com.msys2.root.base operation: CreateShortcut
+[182709] 	- arguments: C:\Users\Dell Latitude E6430\Desktop\New folder\msys2_shell.cmd, C:\Users\Dell Latitude E6430\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 32bit/MSYS2 MinGW 32-bit.lnk, -mingw32
+[182937] Done
+[182938] backup com.msys2.root.base operation: CreateShortcut
+[182938] 	- arguments: C:\Users\Dell Latitude E6430\Desktop\New folder\msys2_shell.cmd, C:\Users\Dell Latitude E6430\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 32bit/MSYS2 MinGW 64-bit.lnk, -mingw64
+[182938] Done
+[182938] perform com.msys2.root.base operation: CreateShortcut
+[182938] 	- arguments: C:\Users\Dell Latitude E6430\Desktop\New folder\msys2_shell.cmd, C:\Users\Dell Latitude E6430\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 32bit/MSYS2 MinGW 64-bit.lnk, -mingw64
+[183046] Done
+[183046] backup com.msys2.root.base operation: CreateShortcut
+[183046] 	- arguments: C:\Users\Dell Latitude E6430\Desktop\New folder\msys2_shell.cmd, C:\Users\Dell Latitude E6430\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 32bit/MSYS2 MSYS.lnk, -msys
+[183046] Done
+[183046] perform com.msys2.root.base operation: CreateShortcut
+[183046] 	- arguments: C:\Users\Dell Latitude E6430\Desktop\New folder\msys2_shell.cmd, C:\Users\Dell Latitude E6430\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 32bit/MSYS2 MSYS.lnk, -msys
+[183136] Done
+[183136] backup com.msys2.root.base operation: Execute
+[183136] 	- arguments: C:\Users\Dell Latitude E6430\Desktop\New folder\autorebase.bat
+[183136] Done
+[183136] perform com.msys2.root.base operation: Execute
+[183136] 	- arguments: C:\Users\Dell Latitude E6430\Desktop\New folder\autorebase.bat
+[183579] C:\\Users\\Dell Latitude E6430\\Desktop\\New folder\\autorebase.bat" started, arguments: "
+[189198] Done
+[189199] backup com.msys2.root.base operation: Execute
+[189199] 	- arguments: C:\Users\Dell Latitude E6430\Desktop\New folder\usr\bin\bash.exe, --login, -c, exit
+[189199] Done
+[189199] perform com.msys2.root.base operation: Execute
+[189199] 	- arguments: C:\Users\Dell Latitude E6430\Desktop\New folder\usr\bin\bash.exe, --login, -c, exit
+[189407] C:\\Users\\Dell Latitude E6430\\Desktop\\New folder\\usr\\bin\\bash.exe" started, arguments: "--login -c exit
+[193212] Copying skeleton files.\nThese files are for the users to personalise their msys2 experience.\n\nThey will never be overwritten nor automatically updated.\n\n
+[193527] './.bashrc' -> '/home/Dell Latitude E6430/.bashrc'\n
+[193600] './.bash_logout' -> '/home/Dell Latitude E6430/.bash_logout'\n
+[193674] './.bash_profile' -> '/home/Dell Latitude E6430/.bash_profile'\n
+[193828] './.inputrc' -> '/home/Dell Latitude E6430/.inputrc'\n
+[193982] './.profile' -> '/home/Dell Latitude E6430/.profile'\n
+[194624] 'C:\\WINDOWS\\system32\\drivers\\etc\\hosts' -> '/etc/hosts'\n
+[195004] 'C:\\WINDOWS\\system32\\drivers\\etc\\protocol' -> '/etc/protocols'\n
+[195156] 'C:\\WINDOWS\\system32\\drivers\\etc\\services' -> '/etc/services'\n
+[195809] 'C:\\WINDOWS\\system32\\drivers\\etc\\networks' -> '/etc/networks'\n
+[200129] ==> Updating trust database...\n
+[200443] ==> Appending keys from msys2.gpg...\n
+[201151] ==> Locally signing trusted keys in keyring...\n
+[201223]   -> Locally signing key D55E7A6D7CE9BA1587C0ACACF40D263ECA25678A...\n
+[201865]   -> Locally signing key 123D4D51A1793859C2BE916BBBE514E53E0D0813...\n
+[202506]   -> Locally signing key B91BCF3303284BF90CC043CA9F418C233E652008...\n
+[203641]   -> Locally signing key 9DD0D4217D75A33B896159E6DA7EF2ABAEEA755C...\n
+[204829] ==> Importing owner trust values...\n
+[205226] ==> Updating trust database...\n
+[209573] gpgkeys: key 5625AE9D6A7F8632409FEEDB4D0B47CC8892A537 not found on keyserver\n
+[216658] --> Installing /usr/share/info/assuan.info.gz ...
+[217291]  done\n--> Installing /usr/share/info/autosprintf.info.gz ...
+[217604]  done\n--> Installing /usr/share/info/bash.info.gz ...
+[217918]  done\n--> Installing /usr/share/info/coreutils.info.gz ...
+[218549]  done\n--> Installing /usr/share/info/find.info.gz ... done\n--> Installing /usr/share/info/find-maint.info.gz ...
+[219182]  done\n--> Installing /usr/share/info/flex.info.gz ... done\n--> Installing /usr/share/info/gawk.info.gz ...
+[219815]  done\n--> Installing /usr/share/info/gawkinet.info.gz ... done\n--> Installing /usr/share/info/gawkworkflow.info.gz ...
+[220449]  done\n--> Installing /usr/share/info/gcrypt.info.gz ... done\n--> Installing /usr/share/info/gettext.info.gz ...
+[220760]  done\n--> Installing /usr/share/info/gmp.info.gz ...
+[221076]  done\n--> Installing /usr/share/info/gnupg1.info.gz ...
+[221229]  done\n--> Installing /usr/share/info/gpgme.info.gz ...
+[221541]  done\n--> Installing /usr/share/info/grep.info.gz ...
+[221694]  done\n--> Installing /usr/share/info/gzip.info.gz ...
+[222006]  done\n--> Installing /usr/share/info/history.info.gz ...
+[222325]  done\n--> Installing /usr/share/info/inetutils.info.gz ...
+[222477]  done\n--> Installing /usr/share/info/info-stnd.info.gz ...
+[223111]  done\n--> Installing /usr/share/info/libffi.info.gz ...
+[223183]  done\n--> Installing /usr/share/info/libgomp.info.gz ...
+[223817]  done\n--> Installing /usr/share/info/libidn2.info.gz ... done\n--> Installing /usr/share/info/libquadmath.info.gz ...
+[224135]  done\n--> Installing /usr/share/info/libtasn1.info.gz ...
+[224288]  done\n--> Installing /usr/share/info/libunistring.info.gz ...
+[224600]  done\n--> Installing /usr/share/info/m4.info.gz ...
+[224913]  done\n--> Installing /usr/share/info/mpfr.info.gz ...
+[225227]  done\n--> Installing /usr/share/info/readline.info.gz ...
+[225381]  done\n--> Installing /usr/share/info/rluserman.info.gz ...
+[225694]  done\n--> Installing /usr/share/info/sed.info.gz ...
+[225846]  done\n--> Installing /usr/share/info/time.info.gz ...
+[226159]  done\n--> Installing /usr/share/info/wget.info.gz ...
+[226472]  done\n--> Installing /usr/share/info/which.info.gz ...
+[226624]  done\n
+[230260] \x1B[H\x1B[J\n\n###################################################################\n#                                                                 #\n#                                                                 #\n#                   C   A   U   T   I   O   N                     #\n#                                                                 #\n#                  This is first start of MSYS2.                  #\n#       You MUST restart shell to apply necessary actions.        #\n#                                                                 #\n#                                                                 #\n###################################################################\n\n\n
+[230331] \x1B[H\x1B[J
+[230335] Done
+[230473] Writing maintenance tool: "C:\\Users\\Dell Latitude E6430\\Desktop\\New folder/maintenancetool.exe.new"
+[232595] Wrote permissions for maintenance tool.
+[234513] Maintenance tool restart: false.
+[237578] starting "C:\\Users\\Dell Latitude E6430\\Desktop\\New folder/msys2_shell.cmd" ()
